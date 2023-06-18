@@ -1,40 +1,63 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Clon de google</title>
   </head>
   <body>
     <header>
-      <ul id="items-header">
-        <!-- aca se pone flex -->
-        <li><a href="http://">Privacidad</a></li>
-        <li><a href="http://">Perfil</a></li>
-        <li><a href="http://">Configuraciones</a></li>
+      <ul id="propiedades-header">
+        <li>
+          <a href="https://policies.google.com/privacy?hl=es">Privacidad</a>
+        </li>
+        <li>
+          <a
+            href="https://accounts.google.com/InteractiveLogin/identifier?continue=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&hl=es&osid=1&passive=1209600&ifkv=Af_xneHEj1IJ-QTwFhVPrlb440tGPNRcqnLMyoEJenfoLDMhICvdrBgkWXzoUKWCdJzOfV_Y7RtO&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+            >Inicio sesión</a
+          >
+        </li>
+        <li>
+          <a href="https://support.google.com/accounts/answer/3118621?hl=es-419"
+            >Configuración</a
+          >
+        </li>
       </ul>
     </header>
+
     <main>
-      <section>
-        <img src="logo.avif" alt="image-logo" id="principal-logo" />
-      </section>
+        
+        <section><img src="logo.png" alt="primer-logo" id="logo"></section>
+        
+        
+        <section>
+            <input placeholder="Buscar......." id="busqueda" type="text">
+            <button id="boton">Buscar</button>
+           
+        </section>
+        
+        
+        
+        <section>
+            
+       
 
-      <section id="principal">
-        <input placeholder="Buscar ..." id="search-input" type="text" />
-        <div id="botonera">
-          <button>Buscar</button>
-          <button>Denunciar</button>
-        </div>
-      </section>
-
-      <section>
-        <div id="clickAqui">
-          <span>Para continuar usando este buscador haz click</span>
-          <a href="www.google.com">Aqui!</a>
-        </div>
-      </section>
+        </section>
     </main>
-    <footer>PIE DE PAGINA</footer>
+    <footer>
+        <ul id="piepagina">
+            <li>
+                <a href="https://support.google.com/?hl=es">Ayuda</a>
+            </li>
+            <li>
+                <a href="https://policies.google.com/privacy?hl=es-419">Politicas de privacidad</a>
+            </li>
+        </ul> 
+
+        
+        
+
+    </footer>
   </body>
 </html>
