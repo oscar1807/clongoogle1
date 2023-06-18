@@ -53,6 +53,7 @@ main{
  }
 #boton{
     border-radius: 6px;
+    color: red;
 }
 
 
@@ -67,7 +68,7 @@ a{
     
     
  }
- #piepagina{
+ #footerlink{
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
