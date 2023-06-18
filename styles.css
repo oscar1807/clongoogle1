@@ -12,6 +12,7 @@ header{
 
 #propiedades-header{
     background-color: whitesmoke;
+    transition: background-color 5s;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -19,6 +20,11 @@ header{
     gap: 20px;
 
 }
+#propiedades-header:hover{
+    background-color: gold;
+}
+
+
 
 body{
     background-image: url(bogota.jpg);
@@ -70,9 +76,14 @@ a{
  }
  #footerlink{
     background-color: whitesmoke;
+    transition: background-color 5s;
     display: flex;
     flex-direction: column;
     justify-content: left;
     list-style: none;
     
+ }
+
+ #footerlink:hover{
+    background-color: gold;
  }
